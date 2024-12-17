@@ -26,6 +26,9 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import sql from './sql.svg'
+import python from './python.svg'
+import cSharp from './cSharp.svg'
 
 export {
     css,
@@ -34,7 +37,7 @@ export {
     github,
     html,
     javascript,
-    mongodb,
+    python,
     motion,
     mui,
     nextjs,
@@ -47,6 +50,8 @@ export {
     linkedin,
     twitter,
     car,
+    sql,
+    cSharp,
     estate,
     pricewise,
     snapgram,
