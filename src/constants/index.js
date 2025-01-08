@@ -1,10 +1,7 @@
 import { micro, lowes, usaa } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
-    express,
     git,
     github,
     html,
@@ -15,15 +12,15 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
+    resume,
+    soccer,
+    bank,
+    movie,
     react,
     redux,
     python,
-    snapgram,
-    summiz,
     tailwindcss,
     cSharp,
-    threads,
     typescript
 } from "../assets/icons";
 
@@ -185,45 +182,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
+        iconUrl: movie,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Entertaiment center',
+        description: 'A website where users can go and check the rating of the newest movies and tv shows. One of my first apps that I used to introduce myself to react.',
+        link: 'https://jonathansentertainmentcenter.netlify.app/',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: bank,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Jonathans Expense Tracker',
+        description: 'A simple expense tracker application where that I built to keep track of my income and expenses. Used to introduce myseld to html and css. ',
+        link: 'https://jonathansentertainmentcenter.netlify.app/',
     },
     {
-        iconUrl: estate,
+        iconUrl: resume,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'My portfolio version 1',
+        description: 'Developed a web app to display my projects and my personal skills. All built using react.',
+        link: 'https://jonathansportfolio.netlify.app/',
     },
     {
-        iconUrl: summiz,
+        iconUrl: soccer,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'MH Coaching and Private Training',
+        description: 'A web app that serves as a personal training website where users can go ahead and book private sessions for soccer training. Users can also book sessions through a Calendly integration. ',
+        link: 'https://mhcoachingandprivatetraining.netlify.app/',
     }
 ];
